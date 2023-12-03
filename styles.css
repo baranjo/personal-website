@@ -17,6 +17,11 @@ header {
     padding: 1em 0;
 }
 
+section {
+    display: flex;
+    flex-direction: row;
+}
+
 nav ul {
     list-style: none;
     display: flex;
