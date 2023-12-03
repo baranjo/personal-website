@@ -45,6 +45,10 @@ main {
     text-align: right;
 }
 
+div {
+    align-items: center;
+}
+
 /* Image styling */
 img {
     max-width: 100%;
@@ -52,7 +56,7 @@ img {
 }
 
 section img {
-    width: 200px;
+    width: 250px;
     height: auto;
-    border-radius: 30px;
+    border-radius: 100px;
 }
