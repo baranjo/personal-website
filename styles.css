@@ -71,7 +71,7 @@ img {
     height: auto;
 }
 
-img #profile-pic {
+.profile-pic {
     width: 300px;
     height: auto;
     border-radius: 200px;
