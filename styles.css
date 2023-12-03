@@ -48,7 +48,8 @@ main {
 
 article {
     text-align: center;
-    width: 70%;
+    width: 65%;
+    gap: 24px;
 }
 
 /* Image styling */
