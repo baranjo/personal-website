@@ -44,6 +44,7 @@ nav ul li a {
 }
 
 main {
+    justify-content: center;
     text-align: right;
     width: 60%;
 }
