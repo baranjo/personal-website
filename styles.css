@@ -69,7 +69,8 @@ hr {
 img {
     width: 300px;
     height: auto;
-    max-height: 450px;
+    max-height: 400px;
+    border: 3px solid rgb(25, 100, 25);
 }
 
 .profile-pic {
