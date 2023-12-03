@@ -51,7 +51,7 @@ article {
     flex-direction: column;
     text-align: center;
     width: 65%;
-    gap: 24px;
+    gap: 48px;
 }
 
 /* Image styling */
@@ -64,33 +64,4 @@ section img {
     width: 300px;
     height: auto;
     border-radius: 200px;
-}
-
-body {
-    background-image: url('spartan.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.5;
-}
-
-
-#resume {
-    position: relative;
-    z-index: 1;
-}
-
-#resume::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('images/spartan.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; /* or you can use a specific size like 100px 100px */
-    opacity: 0.5; /* Adjust the opacity to make sure the text is readable */
-    z-index: -1;
 }
