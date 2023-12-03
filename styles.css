@@ -45,13 +45,13 @@ nav ul li a {
 
 main {
     text-align: right;
+    width: 60%;
 }
 
 article {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 60%;
     height: 100%;
     gap: 30px;
 }
