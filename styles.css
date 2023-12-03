@@ -54,6 +54,11 @@ article {
     gap: 48px;
 }
 
+h1 {
+    margin-bottom: -24px;
+    font-size: x-large;
+}
+
 /* Image styling */
 img {
     max-width: 100%;
