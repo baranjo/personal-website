@@ -66,6 +66,15 @@ section img {
     border-radius: 200px;
 }
 
+body {
+    background-image: url('spartan.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+
 #resume {
     position: relative;
     z-index: 1;
