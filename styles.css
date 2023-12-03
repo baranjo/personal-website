@@ -21,7 +21,7 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10%;
+    gap: 5%;
 }
 
 nav ul {
@@ -49,4 +49,10 @@ main {
 img {
     max-width: 100%;
     height: auto;
+}
+
+section img {
+    width: 200px;
+    height: auto;
+    border-radius: 30px;
 }
