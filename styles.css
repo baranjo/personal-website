@@ -67,8 +67,9 @@ hr {
 
 /* Image styling */
 img {
-    max-width: 100%;
+    width: 300px;
     height: auto;
+    max-height: 450px;
 }
 
 .profile-pic {
