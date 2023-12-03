@@ -7,6 +7,7 @@
 
 /* Basic styling */
 body {
+    background-color: #ccc;
     font-family: Arial, sans-serif;
 }
 
@@ -27,7 +28,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ccc;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
