@@ -42,9 +42,13 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* main {
+main {
     text-align: right;
-} */
+}
+
+article {
+    text-align: center;
+}
 
 /* Image styling */
 img {
