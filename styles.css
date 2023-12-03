@@ -47,6 +47,8 @@ main {
 }
 
 article {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     width: 65%;
     gap: 24px;
