@@ -61,6 +61,10 @@ h1 {
     font-size: x-large;
 }
 
+hr {
+    padding: 48px;
+}
+
 /* Image styling */
 img {
     max-width: 100%;
