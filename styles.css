@@ -48,9 +48,9 @@ main {
 
 article {
     display: flex;
-    flex-direction: space-between;
+    flex-direction: column;
     text-align: center;
-    width: 65%;
+    width: 60%;
     height: 100%;
     gap: 48px;
 }
