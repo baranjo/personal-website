@@ -40,7 +40,8 @@ nav ul li a {
 
 main {
     padding: 2em;
-    text-align: center;
+    text-align: flex-end;
+    justify-content: center;
 }
 
 /* Image styling */
