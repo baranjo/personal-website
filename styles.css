@@ -20,6 +20,7 @@ header {
 section {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 nav ul {
@@ -41,7 +42,6 @@ nav ul li a {
 main {
     padding: 2em;
     text-align: right;
-    justify-content: center;
 }
 
 /* Image styling */
