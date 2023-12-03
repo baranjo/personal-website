@@ -9,6 +9,7 @@
 body {
     background-color: #ccc;
     font-family: Arial, sans-serif;
+    justify-content: space-between;
 }
 
 header {
@@ -49,11 +50,10 @@ main {
 article {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     text-align: center;
     width: 60%;
     height: 100%;
-    /* gap: 48px; */
+    gap: 30px;
 }
 
 h1 {
