@@ -79,3 +79,22 @@ img {
     height: auto;
     border-radius: 200px;
 }
+
+@media screen and (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        padding: 0.5em 0;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    article, .profile-pic {
+        width: 100%;
+    }
+}
