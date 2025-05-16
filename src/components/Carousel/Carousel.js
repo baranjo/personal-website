@@ -16,6 +16,7 @@ export const Carousel = ({ data }) => {
 
   return (
     <div className="carousel">
+      <div className="slide-wrapper">
       <BsArrowLeftCircleFill onClick={prevSlide} className="arrow arrow-left" />
       {data.map((item, idx) => {
         return (
@@ -44,8 +45,9 @@ export const Carousel = ({ data }) => {
           );
         })}
       </span>
+      </div>
       <h2>{data[slide].title}</h2>
-      <div className="carousel-text">
+      <div className="carousel-text paragraph">
         <p>{data[slide].description}</p>
       </div>
     </div>

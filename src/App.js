@@ -26,7 +26,7 @@ function App() {
       </div>
       <header className="App-header">
         
-        <div className="column-layout">
+        <div className="row">
           <div className="column col-1">
             <img className="personal-photo" src={joeyImg} alt="Joey"/>
           </div>
@@ -38,7 +38,7 @@ function App() {
           </div>
         </div>
         
-        <div className="column-layout">
+        <div className="row">
           
             <div className="column col-1 carousel">
               <h1 data-aos="fade-up" data-aos-delay={100} className="section-header">About Me</h1>
@@ -46,7 +46,7 @@ function App() {
             </div>
         </div>
 
-        <div className="column-layout">
+        <div className="row">
           <div className="column col-1">
             <h1 data-aos="fade-up" data-aos-delay={100} className="section-header">Contact Me</h1>
             <div className="social-icons">
@@ -59,13 +59,16 @@ function App() {
               <a href="https://www.linkedin.com/in/joseph-baran-90908121b/">
                 <img className="icon" src="/icons/linkedin.png" alt="E-mail"></img>
               </a>
-              <a href="github.com/baranjo">
+              <a href="https://www.github.com/baranjo">
                 <img className="icon" src="/icons/github.png" alt="E-mail"></img>
               </a>
             </div>
           </div>
         </div>
       </header>
+      <footer>
+        <p className="footer-text">© 2025 Joseph Baran </p>
+      </footer>
     </div>
   );
 }
