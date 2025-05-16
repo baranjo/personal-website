@@ -1,7 +1,7 @@
 import './App.css';
 import joeyImg from './joey-headshot.jpg';
 import joeyResume from './joseph-baran-resume.pdf';
-import logo192 from './logo192.png';
+import newLogo from './new-logo.png';
 import { Carousel } from './components/Carousel/Carousel';
 import carouselData from './data/carouselData.json';
 import { useEffect } from 'react';
@@ -22,7 +22,7 @@ function App() {
     
     <div className="App">
       <div className="logo">
-          <a href="."><img src={logo192} className="home-button" alt="logo" /></a>
+          <a href="."><img src={newLogo} className="home-button" alt="logo" /></a>
       </div>
       <header className="App-header">
         

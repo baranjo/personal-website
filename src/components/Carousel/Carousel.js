@@ -20,12 +20,14 @@ export const Carousel = ({ data }) => {
       <BsArrowLeftCircleFill onClick={prevSlide} className="arrow arrow-left" />
       {data.map((item, idx) => {
         return (
-          <img
-            src={item.src}
-            alt={item.alt}
-            key={idx}
-            className={slide === idx ? "slide" : "slide slide-hidden"}
-          />
+          <a href={data[slide].link}>
+            <img
+              src={item.src}
+              alt={item.alt}
+              key={idx}
+              className={slide === idx ? "slide shadow" : "slide slide-hidden"}
+            />
+          </a>
         );
       })}
       <BsArrowRightCircleFill

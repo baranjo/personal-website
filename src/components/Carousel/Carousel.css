@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: clamp(350px, 60vw, 700px);
+  width: clamp(300px, 60vw, 700px);
   height: auto;
   gap: 1rem;
   padding: 1rem;
@@ -12,19 +12,21 @@
 
 .slide {
   border-radius: 0.5rem;
-  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
   width: 100%;
-  height: auto;
-  
+  height: 100%;
+  object-fit: cover;
+}
+
+.shadow {
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
 }
 
 .slide-wrapper {
   position: relative;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  aspect-ratio: 1 / 1; /* Forces a consistent height */
+  border-radius: 0.5rem;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -48,18 +50,18 @@
 }
 
 .arrow-left {
-  left: calc(-30px - 2vw);
+  left: calc(-40px - 2vw);
 }
 
 .arrow-right {
-  right: calc(-30px - 2vw);
+  right: calc(-40px - 2vw);
 }
 
 .indicators {
   display: flex;
   justify-content: center;
   gap: 0.5rem;
-  margin-top: 0.5rem;
+  margin-top: -2rem;
 }
 
 .indicator {

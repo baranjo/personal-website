@@ -4,25 +4,29 @@
       "src": "/photos/joey-grad-cropped.jpg",
       "alt": "Grad photo",
       "title": "Class of 2025 Graduate",
-      "description": "Here's a photo of me at my graduation where I received my Master's degree in Computer Science from Michigan State University."
+      "description": "This is a photo from my graduation, where I received my Master’s degree in Computer Science from Michigan State University—just one year after earning my Bachelor’s degree in the same field.",
+      "link": "https://msu.edu/"
     },
     {
       "src": "/photos/MSU-CSE.jfif",
       "alt": "MSU CSE department",
       "title": "MSU Teaching Assistant",
-      "description": "During my time at MSU, I was a TA for CSE 335: Object-Oriented Software Design (C++) and CSE 477: Web Development (JavaScript)."
+      "description": "During my time at MSU, I was a TA for CSE 335: Object-Oriented Software Design (C++) and CSE 477: Web Application Architecture and Development (JavaScript).",
+      "link": "https://www.cse.msu.edu/"
     },
     {
       "src": "/photos/capstone-award-cropped.jpeg",
       "alt": "Team Techsmith",
       "title": "Team Techsmith Capstone Project",
-      "description": "My senior capstone team won an award for our project. Our application allows users to upload and edit video files through text commands alone."
+      "description": "My senior capstone team won an award for our project video. Our application allows users to upload and edit video files through text commands using the Azure OpenAI API.",
+      "link": "http://www.capstone.cse.msu.edu/2023-08/projects/techsmith/"
     },
     {
       "src": "/photos/ZF-logo.png",
       "alt": "ZF logo",
       "title": "AI Engineer Internship",
-      "description": "In the summer of 2024, I was an intern at ZF. I developed an information retrieval platform for the Continuous Improvement System." 
+      "description": "In the summer of 2024, I was an AI and Automation intern at ZF. I developed an knowledge sharing platform for the Continuous Improvement System." ,
+      "link": "https://www.zf.com/"
     }
   ]
 }
