@@ -1,38 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-image: url('./background2360.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  height: 2160px
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(12px + 1vmin);
+  color: #222222;
+  gap: 100px;
+}
+
+.column-layout {
+  display: flex;
+  gap: 8px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.column-layout .paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  gap: 8px;
+}
+
+.column {
+  padding: 20px;
+}
+
+.col-2 {
+  flex: 2;
+}
+
+.col-1 {
+  flex: 1;
+}
+
+.personal-photo {
+  border-radius: 20px;
+  width: 350px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+.resume-button {
+  background-color: #134469;
   color: white;
+  padding: 10px 20px;
+  border: #02012a 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  max-width: 250px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.4s;
 }
 
-.App-link {
-  color: #61dafb;
+.resume-button:hover {
+  background-color: #1a5c8e;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  display: flex;
+  align-items: left;
+  padding: 40px;
+}
+
+.home-button {
+  width: 64px;
+  height: 64px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.home-button:hover {
+  opacity: 90%
+}
+
+.carousel {
+  align-items: center;
+}
+
+.section-header {
+  font-size: 2.5rem;
+  color: #0c263b;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;;
+  gap: 10rem;
+  justify-content: center;
+}
+
+.icon { 
+  width: 80px;
+  height: auto;
+  border-radius: 1rem;
 }
