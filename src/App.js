@@ -1,7 +1,7 @@
 import './App.css';
 import joeyImg from './joey-headshot.jpg';
 import joeyResume from './joseph-baran-resume.pdf';
-import newLogo from './new-logo.png';
+import newLogo from './green-logo.png';
 import { Carousel } from './components/Carousel/Carousel';
 import carouselData from './data/carouselData.json';
 import { useEffect } from 'react';
